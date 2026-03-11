@@ -1,6 +1,9 @@
 # RAKI-Implementation
 Python PyTorch implementation of the Deep Learning MRI Reconstruction Algorithm RAKI
-The orginal paper outlining RAKI algorithm: Akçakaya, M., Moeller, S., Weingärtner, S. and Uğurbil, K. (2018). Scan-specific robust artificial-neural-networks for k-space interpolation (RAKI) reconstruction: Database-free deep learning for fast imaging. Magnetic Resonance in Medicine, 81(1), pp.439–453. doi:https://doi.org/10.1002/mrm.27420
+
+The orginal paper outlining RAKI algorithm: 
+
+Akçakaya, M., Moeller, S., Weingärtner, S. and Uğurbil, K. (2018). Scan-specific robust artificial-neural-networks for k-space interpolation (RAKI) reconstruction: Database-free deep learning for fast imaging. Magnetic Resonance in Medicine, 81(1), pp.439–453. doi:https://doi.org/10.1002/mrm.27420
 
 # Algorithm details
 Main script - Parallel_Imaging initalises and trains as well as evaluates the RAKI algorithm using the Shepp-logan Phantom and child brain MRI png image. The algorithm is robust to different size ACS regions and different acceleration factors (R)
